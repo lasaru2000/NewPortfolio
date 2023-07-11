@@ -40,7 +40,6 @@ const PlaygroundProjectComponent = ({
             <ProjectTitle>{projectName}</ProjectTitle>
             <ProjectDescription>{description}</ProjectDescription>
             <ProjectDescription>{description1}</ProjectDescription>
-            <ProjectTechs>{techs}</ProjectTechs>
           </ProjectDetails>
         </ProjectCard>
       </IconContext.Provider>
