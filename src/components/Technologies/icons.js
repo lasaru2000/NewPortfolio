@@ -19,7 +19,13 @@ import mui from "../../assets/technologies/mui.svg";
 import antd from "../../assets/technologies/ants.svg";
 import matplot from "../../assets/technologies/matplot.svg";
 import java from "../../assets/technologies/java.svg";
-
+import mssql from "../../assets/technologies/mssql.png";
+import csharp from "../../assets/technologies/csharp.png";
+import nextjs from "../../assets/technologies/nextjs.jpeg";
+import net from "../../assets/technologies/net.png";
+import ts from "../../assets/technologies/ts.png";
+import angular from "../../assets/technologies/angular.png";
+import tailwind from "../../assets/technologies/tailwind.svg";
 
 export const iconsData = [
   {
@@ -105,8 +111,8 @@ export const iconsData = [
   },
   {
     id: 17,
-    icon: numpy,
-    name: "NumPy",
+    icon: csharp,
+    name: "C#",
   },
   {
     id: 18,
@@ -125,8 +131,8 @@ export const iconsData = [
 
   },{
     id: 21,
-    icon: numpy,
-    name: "NumPy",
+    icon: nextjs,
+    name: "Next JS",
   },
   {
     id: 22,
@@ -137,5 +143,30 @@ export const iconsData = [
     id: 23,
     icon: java,
     name: "JAVA",
+  },
+  {
+    id: 24,
+    icon: mssql,
+  name: "MSSQL",
+  },
+  {
+    id: 25,
+    icon: net,
+  name: "ASP.NET",
+  },
+  {
+    id: 26,
+    icon: ts,
+  name: "TypeScript",
+  },
+  {
+    id: 27,
+    icon: angular,
+  name: "Angular",
+  },
+  {
+    id: 28,
+    icon: tailwind,
+  name: "Tailwind Css",
   },
 ];
